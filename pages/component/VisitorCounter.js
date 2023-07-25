@@ -10,6 +10,6 @@ export default function VisitorCounter() {
     }, []);
 
     return (
-        <h1>Visits: {count} </h1>
+        <h1 className="text-gray-600">Visits: {count} </h1>
     );
 };

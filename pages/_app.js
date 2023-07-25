@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
             <div>
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 <Link href="/">
-                  <h2 className="text-2xl text-gray-600 font-bold">JC</h2>
+                  <h2 className="text-2xl text-gray-600 font-bold">Juan Chung</h2>
                 </Link>
                 <button
                   className="p-2 text-gray-700 rounded-md focus:border-gray-400 focus:border md:hidden"
@@ -58,8 +58,8 @@ export default function App({ Component, pageProps }) {
                     </Link>
                   </li>
                   <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
-                    <Link href="#technical" scroll={false}>
-                      Technical
+                    <Link href="#skills" scroll={false}>
+                      Skills
                     </Link>
                   </li>
                   <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
@@ -68,8 +68,8 @@ export default function App({ Component, pageProps }) {
                     </Link>
                   </li>
                   <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
-                    <Link href="#project" scroll={false}>
-                      Project
+                    <Link href="#projects" scroll={false}>
+                      Projects
                     </Link>
                   </li>
                   <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
@@ -93,33 +93,32 @@ export default function App({ Component, pageProps }) {
         id="contact"
         className="py-4 w-full bg-stone-200 bottom-0 left-0 right-0 z-10"
       >
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="justify-between px-4 mx-auto py-3 lg:max-w-7xl md:items-center md:px-8">
             <div className="flex justify-items-left gap-5">
-              <Link href="">
+              <Link href="mailto:jchung150@my.bcit.ca">
                 <img src="/mail.svg" alt="mail" className="w-8 h-8"></img>
               </Link>
-              <Link href="">
+              <Link href="https://juanchung.net">
                 <img src="/website.svg" alt="website" className="w-8 h-8"></img>
               </Link>
-              <Link href="">
+              <Link href="https://linkedin.com/in/juan-chung">
                 <img
                   src="/linkedin.svg"
                   alt="linkedin"
                   className="w-8 h-8"
                 ></img>
               </Link>
-              <Link href="">
+              <Link href="https://github.com/jchung7v">
                 <img src="/github.svg" alt="github" className="w-8 h-8"></img>
               </Link>
             </div>
-            <p className="text-l mt-5">
-              This website is built with Next.js and Tailwind CSS, and hosted on
-              Azure Serverless Infrastructure.
-            </p>
-            <VisitorCounter />
+              <div className="text-2xl mt-5 text-gray-600 font-bold">Juan Chung</div>
+              <div className="text-l text-gray-600 mt-5">
+                This website is built with Next.js and Tailwind CSS, and hosted on
+                Azure Serverless Infrastructure.
+              <VisitorCounter />
+            </div>
           </div>
-        </div>
       </footer>
     </>
   );

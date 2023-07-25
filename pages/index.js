@@ -30,10 +30,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ photo }) {
   return (
-    <div className="container mt-28 mx-auto">
-      <section id="home">
-        <div className="grid justify-items-center w-40 h-40 overflow-hidden border-stone-300 border-8 rounded-full">
-          <img src="/profile_photo.jpg" alt="profile_photo"/>
+    <div className="container mt-28 mx-auto px-4">
+      <section id="home" className="flex justify-center items-center md:justify-start">
+        <div className="w-48 overflow-hidden border-stone-300 border-8 rounded-full">
+          <img className="w-full h-full object-cover mx-auto my-auto" src="/profile_photo.jpg" alt="profile_photo" />
         </div>
       </section>
 
@@ -42,6 +42,7 @@ export default function Home({ photo }) {
           About Me
         </div>
         <p className="text-xl mb-5 leading-normal text-gray-600">
+          Hi, my name is Juan Chung. I'm currently studying at BCIT 
           With a proven track record in operations, I am currently seeking a new
           challenge as a cloud engineer. I possess strong skills in various
           programming languages and have self-taught knowledge in cloud
@@ -49,7 +50,7 @@ export default function Home({ photo }) {
           business processes and organizational structure.
         </p>
         <div className="container bg-stone-100 p-5">
-          <ul className="list-disc leading-loose pl-5 text-xl text-gray-600">
+          <ul className="list-disc leading-normal pl-5 text-xl text-gray-600">
             <li>
               Abundant hands-on experience in operations across various
               industries.
@@ -66,53 +67,50 @@ export default function Home({ photo }) {
         </div>
       </section>
 
-      <section id="technical" className="py-4 text-left">
+      <section id="skills" className="py-4 text-left">
         <div className="mt-20 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
           Technical Skills
         </div>
 
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-2 text-xl text-gray-600">
-          <div>Java</div>
-          <div>JavaScript</div>
-          <div>Python</div>
-          <div>HTML5, CSS3</div>
-          <div>Node JS</div>
-          <div>SQL, NoSQL</div>
-          <div>Azure, AWS</div>
-          <div>Agile Methodology</div>
-          <div>Quality Assurance</div>
-          <div>10</div>
-          <div>11</div>
-          <div>12</div>
-        </div>
-
-
+        <ul className="pl-5 list-disc md:list-none lg:grid lg:grid-cols-4 md:grid-cols-2 gap-2 text-xl text-gray-600">
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>HTML5, CSS3</li>
+          <li>Node JS</li>
+          <li>SQL, NoSQL</li>
+          <li>Azure, AWS</li>
+          <li>Agile Methodology</li>
+          <li>Quality Assurance</li>
+          <li>10</li>
+          <li>11</li>
+          <li>12</li>
+        </ul>
       </section>
 
       <section id="education" className="py-4 text-left">
-
         <div className="mt-20 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
           Education
         </div>
 
-        <ul className="grid grid-cols-3 pl-5 text-xl leading-loose text-gray-600">
+        <ul className="grid grid-cols-3 pl-5 text-xl leading-normal text-gray-600">
           <li className="col-span-2 list-disc">
-            British Columbia Institute of Technology | Computer Systems Technology Diploma (GPA: 90%)
+            British Columbia Institute of Technology |
+            <i> Computer Systems Technology Diploma (GPA: 90%)</i>
           </li>
           <li className="col-span-1 text-xl text-right">Jan 2023 - Present</li>
           <li className="col-span-2 text-xl list-disc">
-            University of Washington in Seattle | Bachelors degree in economics
+            University of Washington in Seattle |{" "}
+            <i>Bachelors Degree in Economics</i>
           </li>
-          <li className="col-span-1 text-xl text-right">
-            Sep 2004 - Aug 2010
-          </li>
+          <li className="col-span-1 text-xl text-right">Sep 2004 - Aug 2010</li>
         </ul>
 
         <div className="mt-20 mb-5 py-4 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
           Certifications
         </div>
 
-        <ul className="grid grid-cols-3 pl-5 text-xl leading-loose text-gray-600">
+        <ul className="grid grid-cols-3 pl-5 text-xl leading-normal text-gray-600">
           <li className="col-span-2 list-disc">
             Microsoft Azure Administrator Associate (AZ-104){" "}
             <span className="text-sm text-orange-700">
@@ -142,16 +140,15 @@ export default function Home({ photo }) {
           </li>
           <li className="col-span-1 text-right">Sep - Nov 2022</li>
         </ul>
-
       </section>
 
-      <section id="project" className="py-4 text-left">
+      <section id="projects" className="py-4 text-left">
         <div className="mt-20 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
-          Project
+          Projects
         </div>
 
         <div className="grid grid-cols-3 gap-1">
-          <div className="col-span-2 mt-5 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer, Interactive Story Platform
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
@@ -172,7 +169,7 @@ export default function Home({ photo }) {
         </div>
 
         <div className="grid grid-cols-3 gap-1">
-          <div className="col-span-2 mt-5 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer, Quiz Web Apps
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
@@ -192,9 +189,9 @@ export default function Home({ photo }) {
         </div>
 
         <div className="grid grid-cols-3 gap-1">
-          <div className="col-span-2 mt-5 text-xl text-gray-600 font-semi-bold">
-            Front-End Developer, Imposter Syndrome Self- Mar 2023 Assessment Web
-            Apps (Hackathon)
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
+            Front-End Developer, Imposter Syndrome Self Assessment Web Apps
+            (Hackathon)
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Mar 2023
@@ -219,7 +216,7 @@ export default function Home({ photo }) {
         </div>
 
         <div className="grid grid-cols-3 gap-1">
-          <div className="col-span-2 mt-5 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Book Publisher, Operations Manager | Jo-Eun-Saeng-Gak
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
@@ -235,13 +232,13 @@ export default function Home({ photo }) {
         </div>
 
         <div className="grid grid-cols-3 gap-1">
-          <div className="col-span-2 mt-10 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Operations Consultant, Senior Associate | PriceWaterhouseCoopers
           </div>
-          <div className="col-span-1 mt-10 text-xl text-gray-600 font-semi-bold text-right">
+          <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Jun 2014 - Jun 2015
           </div>
-          <div className="col-span-3 pl-5 my-3 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-3 pl-5 mt-3 text-xl text-gray-600 font-semi-bold">
             Project: SK Hynix Resource Management Project
           </div>
           <ul className="col-span-3 pl-14 list-disc text-xl leading-normal text-gray-600">
@@ -255,13 +252,13 @@ export default function Home({ photo }) {
         </div>
 
         <div className="grid grid-cols-3 gap-1">
-          <div className="col-span-2 mt-10 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Operations Consultant, Associate | Accenture PLC
           </div>
-          <div className="col-span-1 mt-10 text-xl text-gray-600 font-semi-bold text-right">
+          <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Oct 2010 - Mar 2014
           </div>
-          <div className="col-span-3 pl-5 my-3 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-3 pl-5 mt-3 text-xl text-gray-600 font-semi-bold">
             Project: KT, SAP ERP(Enterprise Resource Planning) System
             Implementation
           </div>
@@ -272,7 +269,7 @@ export default function Home({ photo }) {
               participated in training power users for their quick adaptation.
             </li>
           </ul>
-          <div className="col-span-3 pl-5 my-3 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-3 pl-5 mt-3 text-xl text-gray-600 font-semi-bold">
             Project: Samsung Electronics, Contract Life-cycle Management
           </div>
           <ul className="col-span-3 pl-14 list-disc text-xl leading-normal text-gray-600">
@@ -282,13 +279,13 @@ export default function Home({ photo }) {
               in collaboration with the internal legal team.
             </li>
           </ul>
-          <div className="col-span-3 pl-5 my-3 text-xl text-gray-600 font-semi-bold">
+          <div className="col-span-3 pl-5 mt-3 text-xl text-gray-600 font-semi-bold">
             Project: SIMTEC, Procurement Optimization Model Implementation
           </div>
           <ul className="col-span-3 pl-14 list-disc text-xl leading-normal text-gray-600">
             <li>
               Created an Excel-based automation tool to calculate a safety stock
-              level, temporarily replacing the client’s legacy system.
+              level, temporarily replacing the clients legacy system.
             </li>
           </ul>
         </div>
