@@ -31,9 +31,16 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home({ photo }) {
   return (
     <div className="container mt-28 mx-auto px-4">
-      <section id="home" className="flex justify-center items-center md:justify-start">
+      <section
+        id="home"
+        className="flex justify-center items-center md:justify-start"
+      >
         <div className="w-48 overflow-hidden border-stone-300 border-8 rounded-full">
-          <img className="w-full h-full object-cover mx-auto my-auto" src="/profile_photo.jpg" alt="profile_photo" />
+          <img
+            className="w-full h-full object-cover mx-auto my-auto"
+            src="/profile_photo.jpg"
+            alt="profile_photo"
+          />
         </div>
       </section>
 
@@ -42,12 +49,12 @@ export default function Home({ photo }) {
           About Me
         </div>
         <p className="text-xl mb-5 leading-normal text-gray-600">
-          Hi, my name is Juan Chung. I'm currently studying at BCIT 
-          With a proven track record in operations, I am currently seeking a new
-          challenge as a cloud engineer. I possess strong skills in various
-          programming languages and have self-taught knowledge in cloud
-          computing. My most notable strength is my agile comprehension of
-          business processes and organizational structure.
+          Hi, my name is Juan Chung. I'm currently studying at BCIT. CST
+          Program. TESTESTSETSET With a proven track record in operations, I am
+          currently seeking a new challenge as a cloud engineer. I possess
+          strong skills in various programming languages and have self-taught
+          knowledge in cloud computing. My most notable strength is my agile
+          comprehension of business processes and organizational structure.
         </p>
         <div className="container bg-stone-100 p-5">
           <ul className="list-disc leading-normal pl-5 text-xl text-gray-600">
