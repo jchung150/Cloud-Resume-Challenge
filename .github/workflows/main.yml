@@ -30,8 +30,5 @@ jobs:
           # aws-secret-access-key: ${{ secrets.AWS_SECRET }}
       - name: Deploy Next.js app
         run: npm run build
-      - name: Upload to S3
-        uses: shallwefootball/s3-upload-action@master
-        with:
-          source_dir: "./build"
-          bucket_name: "juanchung.net"
+      - name: Copy files to the S3 bucket
+        run: aws s3 sync . s3://${{ secrets.AWS_BUCKET_NAME }} --delete
