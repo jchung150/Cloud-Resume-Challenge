@@ -1,4 +1,4 @@
-name: CD
+name: CI
 on:
   push:
     branches: [ main ]
@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
           node-version: '16.x'
@@ -22,4 +22,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET }}
           aws-region: us-east-1
       - name: Deploy Next.js app
-        run: npm ci && npm run build && npx serverless
+        run: npm run build
