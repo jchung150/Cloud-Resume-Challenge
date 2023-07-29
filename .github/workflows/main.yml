@@ -30,3 +30,8 @@ jobs:
           # aws-secret-access-key: ${{ secrets.AWS_SECRET }}
       - name: Deploy Next.js app
         run: npm run build
+      - name: Upload to S3
+        uses: aws-actions/amazon-s3-sync-action@v1
+        with:
+          source_dir: "./build"
+          bucket_name: "juanchung.net"
