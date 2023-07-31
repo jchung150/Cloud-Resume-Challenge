@@ -13,8 +13,11 @@ export default function VisitorCounter() {
         }
         return res.json();
       })
-      .then((data) => setCount(data.count));
-    console.log(data).catch((error) => setError(error.message));
+      .then((data) => {
+        console.log(data);
+        setCount(data.count);
+      })
+      .catch((error) => setError(error.message));
   }, []);
 
   if (error) {
