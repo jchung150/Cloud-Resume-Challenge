@@ -5,7 +5,7 @@ export default function VisitorCounter() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://x3tsc8hfmg.execute-api.us-east-1.amazonaws.com/prod")
+    fetch("https://x3tsc8hfmg.execute-api.us-east-1.amazonaws.com/go/mysite")
       .then((res) => {
         console.log(res);
         if (!res.ok) {
