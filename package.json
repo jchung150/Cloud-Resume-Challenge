@@ -18,6 +18,7 @@
     "unsplash-js": "^7.0.18"
   },
   "devDependencies": {
-    "cypress": "^12.17.3"
+    "cypress": "^12.17.3",
+    "wait-on": "^7.0.1"
   }
 }
