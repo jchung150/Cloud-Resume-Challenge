@@ -103,7 +103,7 @@ export default function Home({ photo }) {
         <ul className="grid grid-cols-3 pl-5 text-xl leading-normal text-gray-600">
           <li className="col-span-2 list-disc">
             British Columbia Institute of Technology |
-            <i> Computer Systems Technology Diploma (GPA: 90%)</i>
+            <i> Computer Systems Technology Diploma (GPA: 91%)</i>
           </li>
           <li className="col-span-1 text-xl text-right">Jan 2023 - Present</li>
           <li className="col-span-2 text-xl list-disc">
@@ -119,21 +119,21 @@ export default function Home({ photo }) {
 
         <ul className="grid grid-cols-3 pl-5 text-xl leading-normal text-gray-600">
           <li className="col-span-2 list-disc">
-            Microsoft Azure Administrator Associate (AZ-104){" "}
+            AWS Solutions Architect Associate {" "}
             <span className="text-sm text-orange-700">
               <Link href="#">view credential</Link>
             </span>
           </li>
           <li className="col-span-1 text-right">In Progress</li>
           <li className="col-span-2 list-disc">
-            AWS Cloud Practitioner (CLF-C01){" "}
+            AWS Cloud Practitioner {" "}
             <span className="text-sm text-orange-700">
               <Link href="#">view credential</Link>
             </span>
           </li>
           <li className="col-span-1 text-right">Jun 2023</li>
           <li className="col-span-2 list-disc">
-            Microsoft Azure Fundamentals (AZ-900){" "}
+            Microsoft Azure Fundamentals {" "}
             <span className="text-sm text-orange-700">
               <Link href="#">view credential</Link>
             </span>
@@ -156,10 +156,10 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Full Stack Developer, Interactive Story Platform
+            Full Stack Developer | Interactive Story Platform
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
-            Jul 2015 - Oct 2022
+            Apr - May 2023
           </div>
           <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
             <li>
@@ -177,7 +177,7 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Full Stack Developer, Quiz Web Apps
+            Full Stack Developer | Quiz Web Apps
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Jan - Apr 2023
@@ -188,7 +188,7 @@ export default function Home({ photo }) {
               users on pet care during extreme weather events.
             </li>
             <li>
-              Took care of the full development cycle, from designing the
+              Championed the full development cycle, from designing the
               database structure to writing code in JavaScript and Node JS to
               create server-side logic such as calculating scores.
             </li>
@@ -197,7 +197,7 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Front-End Developer, Imposter Syndrome Self Assessment Web Apps
+            Front-End Developer | Imposter Syndrome Self Assessment Web Apps
             (Hackathon)
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
@@ -219,12 +219,12 @@ export default function Home({ photo }) {
 
       <section id="experience" className="py-4 text-left">
         <div className="mt-20 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
-          Work Experience
+          IT Consulting Experience
         </div>
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Book Publisher, Operations Manager | Jo-Eun-Saeng-Gak
+            Book Publisher, Operations Manager | JoEunSaengGak
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Jul 2015 - Oct 2022
