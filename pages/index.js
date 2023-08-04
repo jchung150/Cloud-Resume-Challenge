@@ -156,6 +156,23 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
+            Full Stack Developer | Cloud Resume Challenge
+          </div>
+          <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
+            June - Aug 2023
+          </div>
+          <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
+            <li>
+              ...
+            </li>
+            <li>
+              ...
+            </li>
+          </ul>
+        </div>
+
+        <div className="grid grid-cols-3 gap-1">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Interactive Story Platform
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">

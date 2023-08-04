@@ -115,7 +115,7 @@ export default function App({ Component, pageProps }) {
               <div className="text-2xl mt-5 text-gray-600 font-bold">Juan Chung</div>
               <div className="text-l text-gray-600 mt-5">
                 This website is built with Next.js and Tailwind CSS, and hosted on
-                Azure Serverless Infrastructure.
+                AWS Serverless Infrastructure.
               <VisitorCounter />
             </div>
           </div>
