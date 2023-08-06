@@ -1,5 +1,4 @@
 import { Inter } from "next/font/google";
-import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +13,7 @@ export default function Home({ photo }) {
           <img
             className="w-full h-full object-cover mx-auto my-auto"
             src="/juan1.jpg"
-            alt="about_me_photo"
+            alt="profile_photo"
           />
         </div>
       </section>
