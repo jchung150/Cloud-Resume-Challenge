@@ -10,10 +10,10 @@ export default function Home({ photo }) {
         id="home"
         className="flex justify-center items-center md:justify-start"
       >
-        <div className="w-52 overflow-hidden border-stone-300 border-4 rounded-lg">
+        <div className="w-80 overflow-hidden border-stone-300 border-4 rounded-lg">
           <img
             className="w-full h-full object-cover mx-auto my-auto"
-            src="/juan2.jpg"
+            src="/juan1.jpg"
             alt="about_me_photo"
           />
         </div>
