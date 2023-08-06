@@ -1,32 +1,7 @@
 import { Inter } from "next/font/google";
-import { createApi } from "unsplash-js";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
-
-// export async function getStaticProps() {
-//   const unsplash = createApi({
-//     accessKey: process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY,
-//   });
-
-//   let photo;
-
-//   await unsplash.search
-//     .getPhotos({ query: "cat", orientation: "portrait" })
-//     .then((result) => {
-//       if (result.errors) {
-//         console.log("Error ocurred: ", result.errors[0]);
-//       } else {
-//         photo = result.response.results[0];
-//         console.log("Success!");
-//         console.log(photo);
-//       }
-//     });
-
-//   return {
-//     props: { photo },
-//   };
-// }
 
 export default function Home({ photo }) {
   return (
@@ -35,11 +10,11 @@ export default function Home({ photo }) {
         id="home"
         className="flex justify-center items-center md:justify-start"
       >
-        <div className="w-48 overflow-hidden border-stone-300 border-8 rounded-full">
+        <div className="w-52 overflow-hidden border-stone-300 border-4 rounded-lg">
           <img
             className="w-full h-full object-cover mx-auto my-auto"
-            src="/profile_photo.jpg"
-            alt="profile_photo"
+            src="/juan2.jpg"
+            alt="about_me_photo"
           />
         </div>
       </section>
@@ -49,9 +24,9 @@ export default function Home({ photo }) {
           About Me
         </div>
         <p className="text-xl mb-5 leading-normal text-gray-600">
-          Hi, my name is Juan Chung. I'm currently studying at BCIT. CST
-          Program. TESTESTSETSET With a proven track record in operations, I am
-          currently seeking a new challenge as a cloud engineer. I possess
+          Hi, my name is Juan Chung. I'm currently studying at the BCIT CST
+          Program. With a proven track record in operations, I am
+          currently seeking a new challenge as a software engineer. I possess
           strong skills in various programming languages and have self-taught
           knowledge in cloud computing. My most notable strength is my agile
           comprehension of business processes and organizational structure.
@@ -119,30 +94,41 @@ export default function Home({ photo }) {
 
         <ul className="grid grid-cols-3 pl-5 text-xl leading-normal text-gray-600">
           <li className="col-span-2 list-disc">
-            AWS Solutions Architect Associate {" "}
+            AWS Solutions Architect Associate{" "}
             <span className="text-sm text-orange-700">
-              <Link href="#">view credential</Link>
+              <a href="#certifications">
+                view credential
+              </a>
             </span>
           </li>
           <li className="col-span-1 text-right">In Progress</li>
           <li className="col-span-2 list-disc">
-            AWS Cloud Practitioner {" "}
+            AWS Cloud Practitioner{" "}
             <span className="text-sm text-orange-700">
-              <Link href="#">view credential</Link>
+              <a target="_blank" href="https://www.credly.com/badges/3f049aaf-b16f-4760-ba58-6f73162afedc/public_url">
+                view credential
+              </a>
             </span>
           </li>
           <li className="col-span-1 text-right">Jun 2023</li>
           <li className="col-span-2 list-disc">
-            Microsoft Azure Fundamentals {" "}
+            Microsoft Azure Fundamentals{" "}
             <span className="text-sm text-orange-700">
-              <Link href="#">view credential</Link>
+              <a
+                target="_blank"
+                href="https://www.credly.com/badges/2c4d6872-1494-48e5-ae32-453faa8f30c0/public_url"
+              >
+                view credential
+              </a>
             </span>
           </li>
           <li className="col-span-1 text-right">Jun 2023</li>
           <li className="col-span-2 list-disc">
             Java Programming I, Online Course, University of Helsinki{" "}
             <span className="text-sm text-orange-700">
-              <Link href="#">view credential</Link>
+              <a target="_blank" href="/java.png">
+                view credential
+              </a>
             </span>
           </li>
           <li className="col-span-1 text-right">Sep - Nov 2022</li>
@@ -162,12 +148,8 @@ export default function Home({ photo }) {
             June - Aug 2023
           </div>
           <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
-            <li>
-              ...
-            </li>
-            <li>
-              ...
-            </li>
+            <li>...</li>
+            <li>...</li>
           </ul>
         </div>
 
@@ -205,9 +187,9 @@ export default function Home({ photo }) {
               users on pet care during extreme weather events.
             </li>
             <li>
-              Championed the full development cycle, from designing the
-              database structure to writing code in JavaScript and Node JS to
-              create server-side logic such as calculating scores.
+              Championed the full development cycle, from designing the database
+              structure to writing code in JavaScript and Node JS to create
+              server-side logic such as calculating scores.
             </li>
           </ul>
         </div>
