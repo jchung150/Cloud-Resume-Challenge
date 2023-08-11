@@ -21,9 +21,9 @@ jobs:
       - name: Install NPM dependencies
         run: npm install
       - name: Start Next.js App
-        run: npm run build && npm start &
+        run: npm run build && (npm start &)
       - name: Wait for the Next.js server
-        run: npx wait-on http://localhost:3000
+        run: npx wait-on http://localhost:3000 -t 60000
       - name: Run Cypress Tests
         run: npm run cypress:run
       - name: Configure AWS Credentials
