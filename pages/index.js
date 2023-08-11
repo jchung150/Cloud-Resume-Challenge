@@ -12,22 +12,29 @@ export default function Home({ photo }) {
         <div className="w-80 overflow-hidden border-stone-300 border-4 rounded-lg">
           <img
             className="w-full h-full object-cover mx-auto my-auto"
-            src="/juan1.jpg"
-            // src="s3://juanchung.net/Juan1.JPG"
+            src="s3://juanchung.net/Juan1.JPG"
             alt="profile_photo"
           />
         </div>
       </section>
-      
+
       <section className="mt-5 text-xl text-gray-600 px-6">
         <p className="">Download the Resume</p>
         <p className="text-sm">[Last Updated: Aug 11, 2023]</p>
         <div className="flex">
-          <a href="/" download className="hover:text-orange-700 md:hover:text-orange-700">
+          <a
+            href="/"
+            download
+            className="hover:text-orange-700 md:hover:text-orange-700"
+          >
             PDF
           </a>
           <span className="mx-2">|</span>
-          <a href="/" download className="hover:text-orange-700 md:hover:text-orange-700">
+          <a
+            href="/"
+            download
+            className="hover:text-orange-700 md:hover:text-orange-700"
+          >
             Word
           </a>
         </div>
