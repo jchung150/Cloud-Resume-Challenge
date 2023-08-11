@@ -13,22 +13,37 @@ export default function Home({ photo }) {
           <img
             className="w-full h-full object-cover mx-auto my-auto"
             src="/juan1.jpg"
+            // src="s3://juanchung.net/Juan1.JPG"
             alt="profile_photo"
           />
         </div>
       </section>
+      
+      <section className="mt-5 text-xl text-gray-600 px-6">
+        <p className="">Download the Resume</p>
+        <p className="text-sm">[Last Updated: Aug 11, 2023]</p>
+        <div className="flex">
+          <a href="/" download className="hover:text-orange-700 md:hover:text-orange-700">
+            PDF
+          </a>
+          <span className="mx-2">|</span>
+          <a href="/" download className="hover:text-orange-700 md:hover:text-orange-700">
+            Word
+          </a>
+        </div>
+      </section>
 
       <section id="aboutme" className="py-4 text-left">
-        <div className="mt-16 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
+        <div className="mt-5 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
           About Me
         </div>
         <p className="text-xl mb-5 leading-normal text-gray-600">
           Hi, my name is Juan Chung. I'm currently studying at the BCIT CST
-          Program. With a proven track record in operations, I am
-          currently seeking a new challenge as a software engineer. I possess
-          strong skills in various programming languages and have self-taught
-          knowledge in cloud computing. My most notable strength is my agile
-          comprehension of business processes and organizational structure.
+          Program. With a proven track record in operations, I am currently
+          seeking a new challenge as a software engineer. I possess strong
+          skills in various programming languages and have self-taught knowledge
+          in cloud computing. My most notable strength is my agile comprehension
+          of business processes and organizational structure.
         </p>
         <div className="container bg-stone-100 p-5">
           <ul className="list-disc leading-normal pl-5 text-xl text-gray-600">
@@ -95,16 +110,17 @@ export default function Home({ photo }) {
           <li className="col-span-2 list-disc">
             AWS Solutions Architect Associate{" "}
             <span className="text-sm text-orange-700">
-              <a href="#certifications">
-                view credential
-              </a>
+              <a href="#certifications">view credential</a>
             </span>
           </li>
           <li className="col-span-1 text-right">In Progress</li>
           <li className="col-span-2 list-disc">
             AWS Cloud Practitioner{" "}
             <span className="text-sm text-orange-700">
-              <a target="_blank" href="https://www.credly.com/badges/3f049aaf-b16f-4760-ba58-6f73162afedc/public_url">
+              <a
+                target="_blank"
+                href="https://www.credly.com/badges/3f049aaf-b16f-4760-ba58-6f73162afedc/public_url"
+              >
                 view credential
               </a>
             </span>
@@ -147,8 +163,16 @@ export default function Home({ photo }) {
             June - Aug 2023
           </div>
           <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
-            <li>...</li>
-            <li>...</li>
+            <li>
+              Developed a static website resume using Next.js and Tailwind CSS,
+              deploying it on AWS S3 with HTTPS secured via Cloudfront. The
+              application was further enhanced with a Lambda function, written
+              in Python, and integrated with DynamoDB.
+            </li>
+            <li>
+              Implemented a robust CI/CD pipeline using GitHub Actions, which
+              incorporated comprehensive end-to-end testing with Cypress.
+            </li>
           </ul>
         </div>
 

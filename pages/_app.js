@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
             <div>
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 <Link href="/">
-                  <h2 className="text-2xl text-gray-600 font-bold">Juan Chung</h2>
+                  <h2 className="text-2xl text-gray-600 font-bold">JC</h2>
                 </Link>
                 <button
                   className="p-2 text-gray-700 rounded-md focus:border-gray-400 focus:border md:hidden"
@@ -52,32 +52,32 @@ export default function App({ Component, pageProps }) {
                 }`}
               >
                 <ul className="items-center justify-center md:h-auto md:flex ">
-                  <li className="text-xl text-gray-600 py-2 md:px-6 text-center border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
+                  <li className="text-xl text-gray-600 py-2 md:px-6 text-center hover:text-orange-700 md:hover:text-orange-700">
                     <Link href="#aboutme" scroll={false}>
                       About Me
                     </Link>
                   </li>
-                  <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
+                  <li className="text-xl text-gray-600 py-2 px-6 text-center  hover:text-orange-700 md:hover:text-orange-700">
                     <Link href="#skills" scroll={false}>
                       Skills
                     </Link>
                   </li>
-                  <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
+                  <li className="text-xl text-gray-600 py-2 px-6 text-center  hover:text-orange-700 md:hover:text-orange-700">
                     <Link href="#education" scroll={false}>
                       Education
                     </Link>
                   </li>
-                  <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
+                  <li className="text-xl text-gray-600 py-2 px-6 text-center  hover:text-orange-700 md:hover:text-orange-700">
                     <Link href="#projects" scroll={false}>
                       Projects
                     </Link>
                   </li>
-                  <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
+                  <li className="text-xl text-gray-600 py-2 px-6 text-center  hover:text-orange-700 md:hover:text-orange-700">
                     <Link href="#experience" scroll={false}>
                       Experience
                     </Link>
                   </li>
-                  <li className="text-xl text-gray-600 py-2 px-6 text-center  border-b-2 md:border-b-0 hover:text-orange-700 md:hover:text-orange-700">
+                  <li className="text-xl text-gray-600 py-2 px-6 text-center  hover:text-orange-700 md:hover:text-orange-700">
                     <Link href="#contact" scroll={false}>
                       Contact
                     </Link>
@@ -91,7 +91,7 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <footer
         id="contact"
-        className="py-4 w-full bg-stone-200 bottom-0 left-0 right-0 z-10"
+        className="py-4 px-6 w-full bg-stone-200 bottom-0 left-0 right-0 z-10"
       >
           <div className="justify-between px-4 mx-auto py-3 lg:max-w-7xl md:items-center md:px-8">
             <div className="flex justify-items-left gap-5">
@@ -112,7 +112,7 @@ export default function App({ Component, pageProps }) {
                 <img src="/github.svg" alt="github" className="w-8 h-8"></img>
               </Link>
             </div>
-              <div className="text-2xl mt-5 text-gray-600 font-bold">Juan Chung</div>
+              <div className="text-2xl mt-5 text-gray-600 font-bold">JC</div>
               <div className="text-l text-gray-600 mt-5">
                 This website is built with Next.js and Tailwind CSS, and hosted on
                 AWS Serverless Infrastructure.
