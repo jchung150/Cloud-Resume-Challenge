@@ -12,7 +12,7 @@ export default function Home({ photo }) {
         <div className="w-80 overflow-hidden border-stone-300 border-4 rounded-lg">
           <img
             className="w-full h-full object-cover mx-auto my-auto"
-            src="s3://juanchung.net/Juan1.JPG"
+            src="https://s3.us-west-2.amazonaws.com/juanchung.net/Juan1.JPG"
             alt="profile_photo"
           />
         </div>
