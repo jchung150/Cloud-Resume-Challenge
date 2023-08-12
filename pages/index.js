@@ -200,11 +200,11 @@ export default function Home({ photo }) {
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Cloud Resume Challenge{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="/">
+              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/mywebsite2">
                 github
               </a>
               {" "}|{" "}
-              <a className="text-orange-700" target="_blank" href="/">
+              <a className="text-orange-700" target="_blank" href="https://juanchung.net">
                 output
               </a>
             </span>
