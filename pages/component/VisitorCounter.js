@@ -23,5 +23,5 @@ export default function VisitorCounter() {
   if (error) {
     return <h1 className="text-red-600">Error: {error}</h1>;
   }
-  return <h1 className="text-gray-600">Visits: {count} </h1>;
+  return <h1 className="text-gray-600 font-bold">Visits: {count} </h1>;
 }

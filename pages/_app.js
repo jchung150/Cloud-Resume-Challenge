@@ -15,11 +15,11 @@ export default function App({ Component, pageProps }) {
     <>
       <header>
         <nav className="w-full bg-stone-200 fixed top-0 z-10">
-          <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+          <div className="justify-between mx-auto px-4 lg:max-w-screen-2xl md:items-center md:flex md:px-8">
             <div>
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 <Link href="/">
-                  <h2 className="text-2xl text-gray-600 font-bold">JC</h2>
+                  <Image src="/code.svg" width={40} height={40} />
                 </Link>
                 <button
                   className="p-2 text-gray-700 rounded-md focus:border-gray-400 focus:border md:hidden"
@@ -93,7 +93,7 @@ export default function App({ Component, pageProps }) {
         id="contact"
         className="py-4 px-6 w-full bg-stone-200 bottom-0 left-0 right-0 z-10"
       >
-          <div className="justify-between px-4 mx-auto py-3 lg:max-w-7xl md:items-center md:px-8">
+          <div className="justify-between px-4 mx-auto py-3 lg:max-w-screen-2xl md:items-center md:px-8">
             <div className="flex justify-items-left gap-5">
               <Link href="mailto:jchung150@my.bcit.ca">
                 <img src="/mail.svg" alt="mail" className="w-8 h-8"></img>
@@ -112,7 +112,6 @@ export default function App({ Component, pageProps }) {
                 <img src="/github.svg" alt="github" className="w-8 h-8"></img>
               </Link>
             </div>
-              <div className="text-2xl mt-5 text-gray-600 font-bold">JC</div>
               <div className="text-l text-gray-600 mt-5">
                 This website is built with Next.js and Tailwind CSS, and hosted on
                 AWS Serverless Infrastructure.

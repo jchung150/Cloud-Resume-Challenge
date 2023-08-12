@@ -1,25 +1,28 @@
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({ 
+  weight:'400',
+  subsets: ["latin"] 
+});
 
 export default function Home({ photo }) {
   return (
-    <div className="container mt-28 mx-auto px-4">
+    <div className={`${roboto.className} container mt-28 mx-auto px-4`}>
       <section
         id="home"
         className="flex justify-center items-center md:justify-start"
       >
-        <div className="w-80 overflow-hidden border-stone-300 border-4 rounded-lg">
+        <div className="w-96 overflow-hidden border-stone-300 border-4 rounded-lg">
           <img
-            className="w-full h-full object-cover mx-auto my-auto"
+            className="w-full h-full object-cover"
             src="https://s3.us-west-2.amazonaws.com/juanchung.net/Juan1.JPG"
             alt="profile_photo"
           />
         </div>
       </section>
 
-      <section className="mt-5 text-xl text-gray-600 px-6">
-        <p className="">Download the Resume</p>
+      <section className="mt-5 text-xl text-gray-600">
+        <p className="">Resume Download</p>
         <p className="text-sm">[Last Updated: Aug 11, 2023]</p>
         <div className="flex">
           <a
@@ -79,15 +82,15 @@ export default function Home({ photo }) {
           <li>Java</li>
           <li>JavaScript</li>
           <li>Python</li>
-          <li>HTML5, CSS3</li>
-          <li>Node JS</li>
-          <li>SQL, NoSQL</li>
-          <li>Azure, AWS</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>React</li>
+          <li>SQL</li>
+          <li>NoSQL</li>
+          <li>AWS</li>
+          <li>Git</li>
           <li>Agile Methodology</li>
           <li>Quality Assurance</li>
-          <li>10</li>
-          <li>11</li>
-          <li>12</li>
         </ul>
       </section>
 
