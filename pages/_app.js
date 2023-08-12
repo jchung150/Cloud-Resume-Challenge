@@ -91,33 +91,41 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
       <footer
         id="contact"
-        className="py-4 px-6 w-full bg-stone-200 bottom-0 left-0 right-0 z-10"
+        className="mt-5 py-4 px-6 w-full bg-stone-200 bottom-0 left-0 right-0 z-10"
       >
-          <div className="justify-between px-4 mx-auto py-3 lg:max-w-screen-2xl md:items-center md:px-8">
-            <div className="flex justify-items-left gap-5">
-              <Link href="mailto:jchung150@my.bcit.ca">
-                <img src="/mail.svg" alt="mail" className="w-8 h-8"></img>
-              </Link>
-              <Link href="https://juanchung.net">
-                <img src="/website.svg" alt="website" className="w-8 h-8"></img>
-              </Link>
-              <Link href="https://linkedin.com/in/juan-chung">
-                <img
-                  src="/linkedin.svg"
-                  alt="linkedin"
-                  className="w-8 h-8"
-                ></img>
-              </Link>
-              <Link href="https://github.com/jchung7v">
-                <img src="/github.svg" alt="github" className="w-8 h-8"></img>
-              </Link>
-            </div>
-              <div className="text-l text-gray-600 mt-5">
-                This website is built with Next.js and Tailwind CSS, and hosted on
-                AWS Serverless Infrastructure.
-              <VisitorCounter />
-            </div>
+        <div className="justify-between px-4 mx-auto py-3 lg:max-w-screen-2xl md:items-center md:px-8">
+          <div className="flex flex-col justify-items-left gap-2">
+            <Link href="mailto:jchung150@my.bcit.ca">
+              <div className="flex items-center gap-2">
+                <img src="/mail.svg" alt="mail" className="w-8 h-8" />
+                jchung150@my.bcit.ca
+              </div>
+            </Link>
+            <Link href="https://juanchung.net">
+              <div className="flex items-center gap-2">
+                <img src="/website.svg" alt="website" className="w-8 h-8" />
+                juanchung.net
+              </div>
+            </Link>
+            <Link href="https://linkedin.com/in/juan-chung">
+              <div className="flex items-center gap-2">
+                <img src="/linkedin.svg" alt="linkedin" className="w-8 h-8" />
+                linkedin.com/in/juan-chung
+              </div>
+            </Link>
+            <Link href="https://github.com/jchung7v">
+              <div className="flex items-center gap-2">
+                <img src="/github.svg" alt="github" className="w-8 h-8" />
+                github.com/jchung7v
+              </div>
+            </Link>
           </div>
+          <div className="text-l text-gray-600 mt-5">
+            This website is built with Next.js and Tailwind CSS, and hosted on
+            AWS Serverless Infrastructure.
+            <VisitorCounter />
+          </div>
+        </div>
       </footer>
     </>
   );

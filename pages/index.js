@@ -167,7 +167,15 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Full Stack Developer | Ask Doc Brown
+            Full Stack Developer | Ask Doc Brown{" "}
+            <span className="text-sm text-orange-700">
+              <a
+                target="_blank"
+                href="/"
+              >
+                link
+              </a>
+            </span>
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             July - Aug 2023
@@ -184,7 +192,15 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Full Stack Developer | Cloud Resume Challenge
+            Full Stack Developer | Cloud Resume Challenge{" "}
+            <span className="text-sm text-orange-700">
+              <a
+                target="_blank"
+                href="/"
+              >
+                link
+              </a>
+            </span>
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             June - Aug 2023
@@ -207,7 +223,15 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Full Stack Developer | Interactive Story Platform
+            Full Stack Developer | Interactive Story Platform{" "}
+            <span className="text-sm text-orange-700">
+              <a
+                target="_blank"
+                href="/"
+              >
+                link
+              </a>
+            </span>
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Apr - May 2023
@@ -228,7 +252,15 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Full Stack Developer | Quiz Web Apps
+            Full Stack Developer | Quiz Web Apps{" "}
+            <span className="text-sm text-orange-700">
+              <a
+                target="_blank"
+                href="/"
+              >
+                link
+              </a>
+            </span>
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Jan - Apr 2023
@@ -249,7 +281,15 @@ export default function Home({ photo }) {
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Front-End Developer | Imposter Syndrome Self Assessment Web Apps
-            (Hackathon)
+            (Hackathon){" "}
+            <span className="text-sm text-orange-700">
+              <a
+                target="_blank"
+                href="/"
+              >
+                link
+              </a>
+            </span>
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
             Mar 2023
