@@ -4,6 +4,12 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import VisitorCounter from "./component/VisitorCounter";
+import { Roboto } from "next/font/google";
+
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export default function App({ Component, pageProps }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,8 +17,9 @@ export default function App({ Component, pageProps }) {
     setMenuOpen(!menuOpen);
   };
 
+
   return (
-    <>
+    <main className={roboto.className}>
       <header>
         <nav className="w-full bg-stone-200 fixed top-0 z-10">
           <div className="justify-between mx-auto px-4 lg:max-w-screen-2xl md:items-center md:flex md:px-8">
@@ -127,6 +134,6 @@ export default function App({ Component, pageProps }) {
           </div>
         </div>
       </footer>
-    </>
+    </main>
   );
 }

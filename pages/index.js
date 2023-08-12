@@ -1,8 +1,8 @@
 import { Roboto } from "next/font/google";
 
-const roboto = Roboto({ 
-  weight:'400',
-  subsets: ["latin"] 
+const roboto = Roboto({
+  weight: "400",
+  subsets: ["latin"],
 });
 
 export default function Home({ photo }) {
@@ -168,12 +168,13 @@ export default function Home({ photo }) {
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Ask Doc Brown{" "}
-            <span className="text-sm text-orange-700">
-              <a
-                target="_blank"
-                href="/"
-              >
-                link
+            <span className="text-sm text-gray-600">
+              <a className="text-orange-700" target="_blank" href="/">
+                github
+              </a>
+              {" "}|{" "}
+              <a className="text-orange-700" target="_blank" href="/">
+                output
               </a>
             </span>
           </div>
@@ -182,10 +183,15 @@ export default function Home({ photo }) {
           </div>
           <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
             <li>
-              Developed a mobile app that intuitively listens to young children's questions and responds with age-appropriate text and voice answers.
+              Developed a mobile app that intuitively listens to young
+              children's questions and responds with age-appropriate text and
+              voice answers.
             </li>
             <li>
-              Built a web platform with Next.js and Tailwind CSS, hosted on AWS Amplify. Integrated the OpenAI API for answers and used AWS Polly for voice output. Backend operations were managed using Python functions on AWS Lambda.
+              Built a web platform with Next.js and Tailwind CSS, hosted on AWS
+              Amplify. Integrated the OpenAI API for answers and used AWS Polly
+              for voice output. Backend operations were managed using Python
+              functions on AWS Lambda.
             </li>
           </ul>
         </div>
@@ -193,12 +199,13 @@ export default function Home({ photo }) {
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Cloud Resume Challenge{" "}
-            <span className="text-sm text-orange-700">
-              <a
-                target="_blank"
-                href="/"
-              >
-                link
+            <span className="text-sm text-gray-600">
+              <a className="text-orange-700" target="_blank" href="/">
+                github
+              </a>
+              {" "}|{" "}
+              <a className="text-orange-700" target="_blank" href="/">
+                output
               </a>
             </span>
           </div>
@@ -208,11 +215,11 @@ export default function Home({ photo }) {
           <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
             <li>
               Crafted a static website resume using Next.js and Tailwind CSS,
-              hosted securely on AWS S3 and Cloudfront. 
+              hosted securely on AWS S3 and Cloudfront.
             </li>
             <li>
-              The application was further enhanced with a Lambda function, written
-              in Python, and integrated with DynamoDB.
+              The application was further enhanced with a Lambda function,
+              written in Python, and integrated with DynamoDB.
             </li>
             <li>
               Implemented a robust CI/CD pipeline using GitHub Actions, which
@@ -224,12 +231,13 @@ export default function Home({ photo }) {
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Interactive Story Platform{" "}
-            <span className="text-sm text-orange-700">
-              <a
-                target="_blank"
-                href="/"
-              >
-                link
+            <span className="text-sm text-gray-600">
+              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Stories-A-Million">
+                github
+              </a>
+              {" "}|{" "}
+              <a className="text-orange-700" target="_blank" href="https://2800-202310-bby-19.vercel.app/">
+                output
               </a>
             </span>
           </div>
@@ -253,12 +261,9 @@ export default function Home({ photo }) {
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Quiz Web Apps{" "}
-            <span className="text-sm text-orange-700">
-              <a
-                target="_blank"
-                href="/"
-              >
-                link
+            <span className="text-sm text-gray-600">
+              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Trivia-Quiz-Game">
+                github
               </a>
             </span>
           </div>
@@ -282,12 +287,13 @@ export default function Home({ photo }) {
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Front-End Developer | Imposter Syndrome Self Assessment Web Apps
             (Hackathon){" "}
-            <span className="text-sm text-orange-700">
-              <a
-                target="_blank"
-                href="/"
-              >
-                link
+            <span className="text-sm text-gray-600">
+              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Mindscape">
+                github
+              </a>
+              {" "}|{" "}
+              <a className="text-orange-700" target="_blank" href="https://hackthebreak-77859.web.app/">
+                output
               </a>
             </span>
           </div>
