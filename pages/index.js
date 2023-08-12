@@ -164,6 +164,23 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
+            Full Stack Developer | Ask Doc Brown
+          </div>
+          <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
+            July - Aug 2023
+          </div>
+          <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
+            <li>
+              Developed a mobile app that intuitively listens to young children's questions and responds with age-appropriate text and voice answers.
+            </li>
+            <li>
+              Built a web platform with Next.js and Tailwind CSS, hosted on AWS Amplify. Integrated the OpenAI API for answers and used AWS Polly for voice output. Backend operations were managed using Python functions on AWS Lambda.
+            </li>
+          </ul>
+        </div>
+
+        <div className="grid grid-cols-3 gap-1">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Cloud Resume Challenge
           </div>
           <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
@@ -171,9 +188,11 @@ export default function Home({ photo }) {
           </div>
           <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
             <li>
-              Developed a static website resume using Next.js and Tailwind CSS,
-              deploying it on AWS S3 with HTTPS secured via Cloudfront. The
-              application was further enhanced with a Lambda function, written
+              Crafted a static website resume using Next.js and Tailwind CSS,
+              hosted securely on AWS S3 and Cloudfront. 
+            </li>
+            <li>
+              The application was further enhanced with a Lambda function, written
               in Python, and integrated with DynamoDB.
             </li>
             <li>
