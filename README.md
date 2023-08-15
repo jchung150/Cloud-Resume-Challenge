@@ -1,20 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#technology-used">Technology used</a>      
-    </li>
-    <li><a href="#how-did-we-use-ai">How did we use AI</a></li>
-    <li><a href="#getting-started">Getting started</a></li>
-    <li><a href="#file-contents-of-folder">File Contents of folder</a></li>
-    <li><a href="#learn-more">Learn More</a></li>
-    <li><a href="#references">References</a></li>
-    <li><a href="#credits">Credits</a></li>
-    <li><a href="#licence">Licence</a></li>
-  </ol>
-</details>
-<br />
 <div align="center">
   <h3 align="center">Cloud-Resume-Challenge</h3>
   <p align="center">
@@ -29,14 +12,13 @@
 
 ## Screenshots
 
-<img width="200" alt="Screenshot" src="https://github.com/jchung7v/mywebsite2/assets/111412548/fc16971c-602a-4484-9664-6eb011b322e7">
-<img width="200" alt="Screenshot 2023-08-12 at 4 46 45 PM" src="https://github.com/jchung7v/mywebsite2/assets/111412548/58294fec-3032-46ab-976b-6b8df090532b">
-<img width="200" alt="Screenshot 2023-08-12 at 4 47 19 PM" src="https://github.com/jchung7v/mywebsite2/assets/111412548/49668800-300a-4e4b-8cc8-824764419448">
-
+<img width="298" alt="resume_screenshot_01" src="https://github.com/jchung7v/mywebsite2/assets/111412548/81cc59c4-639f-4678-8e52-eaf3956bd49a">
+<img width="294" alt="resume_screenshot_02" src="https://github.com/jchung7v/mywebsite2/assets/111412548/39bec2e9-cee9-4eb0-9bde-6b28634e6257">
+<img width="296" alt="resume_screenshot_03" src="https://github.com/jchung7v/mywebsite2/assets/111412548/76023c24-0b66-4b6c-b595-7ecbc00838c3">
 
 ## High Level Design of AWS Services
 
-<img width="690" alt="Screenshot 2023-08-12 at 4 45 03 PM" src="https://github.com/jchung7v/mywebsite2/assets/111412548/1ca2acb9-7c05-470c-9caa-784c83830ff9">
+<img width="690" alt="resume_screenshot_aws" src="https://github.com/jchung7v/mywebsite2/assets/111412548/6a500ed3-84cf-4ca5-a837-9f97a3ef7ef4">
 
 ![Next JS](https://img.shields.io/badge/Next^13.3.2-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss^3.3.2-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -44,7 +26,7 @@
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=AWS&logoColor=white)
 ![VScode](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-## How did I pull this off?
+## Making Process
 
 
 ## File Contents of folder
