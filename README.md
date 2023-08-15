@@ -4,7 +4,7 @@
     This is my static online resume utilizing Next.js and Tailwind CSS, hosted securely on AWS.
     <br />
     <br />
-    <a href="https://2800-202310-bby-19.vercel.app/">See My Resume</a>
+    <a href="https://juanchung.net">See My Resume</a>
     ·
     <a href="/">Report Bug</a>
   </p>
