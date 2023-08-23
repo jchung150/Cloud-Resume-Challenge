@@ -26,25 +26,17 @@ export default function Home({ photo }) {
         <p className="text-sm">[Last Updated: Aug 11, 2023]</p>
         <div className="flex">
           <a
-            href="/"
+            href="https://s3.us-west-2.amazonaws.com/juanchung.net/RESUME_BCIT_COOP_V1.5.pdf"
             download
             className="hover:text-orange-700 md:hover:text-orange-700"
           >
             PDF
           </a>
-          <span className="mx-2">|</span>
-          <a
-            href="/"
-            download
-            className="hover:text-orange-700 md:hover:text-orange-700"
-          >
-            Word
-          </a>
         </div>
       </section>
 
       <section id="aboutme" className="py-4 text-left">
-        <div className="mt-5 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
+        <div className="mt-20 mb-5 pb-2 border-b-2 border-stone-200 text-3xl text-gray-600 font-semi-bold tracking-widest">
           About Me
         </div>
         <p className="text-xl mb-5 leading-normal text-gray-600">
@@ -78,13 +70,13 @@ export default function Home({ photo }) {
           Technical Skills
         </div>
 
-        <ul className="pl-5 list-disc md:list-none lg:grid lg:grid-cols-4 md:grid-cols-2 gap-2 text-xl text-gray-600">
+        <ul className="pl-5 list-disc lg:grid lg:grid-cols-4 md:grid-cols-2 gap-2 text-xl text-gray-600">
           <li>Java</li>
           <li>JavaScript</li>
           <li>Python</li>
           <li>HTML5</li>
           <li>CSS3</li>
-          <li>React</li>
+          <li>NextJS</li>
           <li>SQL</li>
           <li>NoSQL</li>
           <li>AWS</li>
@@ -167,13 +159,13 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
-            Full Stack Developer | Ask Doc Brown{" "}
+            Full Stack Developer | Ask Doctor Brown{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="/">
+              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Doctor-Brown">
                 github
               </a>
               {" "}|{" "}
-              <a className="text-orange-700" target="_blank" href="/">
+              <a className="text-orange-700" target="_blank" href="https://main.d2ca7ws6kiki2r.amplifyapp.com/">
                 output
               </a>
             </span>
@@ -200,7 +192,7 @@ export default function Home({ photo }) {
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Cloud Resume Challenge{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/mywebsite2">
+              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/My-Resume">
                 github
               </a>
               {" "}|{" "}
@@ -214,11 +206,11 @@ export default function Home({ photo }) {
           </div>
           <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
             <li>
-              Crafted a static website resume using Next.js and Tailwind CSS,
-              hosted securely on AWS S3 and Cloudfront.
+              Developed a static website resume using Next.js and Tailwind CSS,
+              hosted securely on AWS S3 and CloudFront.
             </li>
             <li>
-              The application was further enhanced with a Lambda function,
+              The application was further enhanced with a AWS Lambda function,
               written in Python, and integrated with DynamoDB.
             </li>
             <li>
@@ -262,7 +254,7 @@ export default function Home({ photo }) {
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Quiz Web Apps{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Trivia-Quiz-Game">
+              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Quiz-Web-Apps">
                 github
               </a>
             </span>
