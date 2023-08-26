@@ -22,17 +22,21 @@ export default function Home({ photo }) {
       </section>
 
       <section className="mt-5 text-xl text-gray-600">
-        <p className="">Resume Download</p>
-        <p className="text-sm">[Last Updated: Aug 11, 2023]</p>
+        <p className=""></p>
+        <p className="text-sm">[Last Updated: Aug 25, 2023]</p>
         <div className="flex">
           <a
-            href="https://s3.us-west-2.amazonaws.com/juanchung.net/RESUME_BCIT_COOP_V1.5.pdf"
+            href="https://s3.us-west-2.amazonaws.com/juanchung.net/RESUME_BCIT_COOP_V1.6.pdf"
             download
             className="hover:text-orange-700 md:hover:text-orange-700"
           >
-            PDF
+            Resume Download
           </a>
         </div>
+        <p className="text-sm">
+          Please note that the PDF provides a summary of the information
+          presented in this online resume.
+        </p>
       </section>
 
       <section id="aboutme" className="py-4 text-left">
@@ -74,12 +78,12 @@ export default function Home({ photo }) {
           <li>Java</li>
           <li>JavaScript</li>
           <li>Python</li>
-          <li>HTML5</li>
-          <li>CSS3</li>
+          <li>HTML/CSS</li>
           <li>NextJS</li>
           <li>SQL</li>
           <li>NoSQL</li>
           <li>AWS</li>
+          <li>Terraform</li>
           <li>Git</li>
           <li>Agile Methodology</li>
           <li>Quality Assurance</li>
@@ -116,6 +120,7 @@ export default function Home({ photo }) {
             </span>
           </li>
           <li className="col-span-1 text-right">In Progress</li>
+
           <li className="col-span-2 list-disc">
             AWS Cloud Practitioner{" "}
             <span className="text-sm text-orange-700">
@@ -128,6 +133,7 @@ export default function Home({ photo }) {
             </span>
           </li>
           <li className="col-span-1 text-right">Jun 2023</li>
+
           <li className="col-span-2 list-disc">
             Microsoft Azure Fundamentals{" "}
             <span className="text-sm text-orange-700">
@@ -140,6 +146,7 @@ export default function Home({ photo }) {
             </span>
           </li>
           <li className="col-span-1 text-right">Jun 2023</li>
+
           <li className="col-span-2 list-disc">
             Java Programming I, Online Course, University of Helsinki{" "}
             <span className="text-sm text-orange-700">
@@ -149,6 +156,19 @@ export default function Home({ photo }) {
             </span>
           </li>
           <li className="col-span-1 text-right">Sep - Nov 2022</li>
+
+          <li className="col-span-2 list-disc">
+            Crash Course On Python - Google IT Automation with Python Professional Certificate{" "}
+            <span className="text-sm text-orange-700">
+              <a
+                target="_blank"
+                href="https://coursera.org/share/5b6cba214c4be2afdca2160fcbc98b9e"
+              >
+                view credential
+              </a>
+            </span>
+          </li>
+          <li className="col-span-1 text-right">Jun - July 2022</li>
         </ul>
       </section>
 
@@ -159,13 +179,46 @@ export default function Home({ photo }) {
 
         <div className="grid grid-cols-3 gap-1">
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
+            Back-End Developer | How To Make Ramen{" "}
+            <span className="text-sm text-gray-600">
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://github.com/jchung7v/How-To-Make-Ramen"
+              >
+                github
+              </a>{" "}
+            </span>
+          </div>
+          <div className="col-span-1 mt-5 text-xl text-gray-600 font-semi-bold text-right">
+            Aug 2023
+          </div>
+          <ul className="col-span-3 pl-14 mt-3 list-disc text-xl leading-normal text-gray-600">
+            <li>
+            Based on hypothetical client requirements, I implemented a Java program using OOP principles to simulate a robot cooking ramen, 
+            emphasizing code reusability and scalability 
+            </li>
+          </ul>
+        </div>
+        
+
+        <div className="grid grid-cols-3 gap-1">
+          <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Ask Doctor Brown{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Doctor-Brown">
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://github.com/jchung7v/Doctor-Brown"
+              >
                 github
-              </a>
-              {" "}|{" "}
-              <a className="text-orange-700" target="_blank" href="https://main.d2ca7ws6kiki2r.amplifyapp.com/">
+              </a>{" "}
+              |{" "}
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://main.d2ca7ws6kiki2r.amplifyapp.com/"
+              >
                 output
               </a>
             </span>
@@ -182,7 +235,7 @@ export default function Home({ photo }) {
             <li>
               Built a web platform with Next.js and Tailwind CSS, hosted on AWS
               Amplify. Integrated the OpenAI API for answers and used AWS Polly
-              for voice output. Backend operations were managed using Python
+              for AI voice output. Backend operations were managed using Python
               functions on AWS Lambda.
             </li>
           </ul>
@@ -192,11 +245,19 @@ export default function Home({ photo }) {
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Cloud Resume Challenge{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/My-Resume">
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://github.com/jchung7v/My-Resume"
+              >
                 github
-              </a>
-              {" "}|{" "}
-              <a className="text-orange-700" target="_blank" href="https://juanchung.net">
+              </a>{" "}
+              |{" "}
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://juanchung.net"
+              >
                 output
               </a>
             </span>
@@ -224,11 +285,19 @@ export default function Home({ photo }) {
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Interactive Story Platform{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Stories-A-Million">
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://github.com/jchung7v/Stories-A-Million"
+              >
                 github
-              </a>
-              {" "}|{" "}
-              <a className="text-orange-700" target="_blank" href="https://2800-202310-bby-19.vercel.app/">
+              </a>{" "}
+              |{" "}
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://2800-202310-bby-19.vercel.app/"
+              >
                 output
               </a>
             </span>
@@ -254,7 +323,11 @@ export default function Home({ photo }) {
           <div className="col-span-2 mt-5 text-xl text-gray-600 font-bold">
             Full Stack Developer | Quiz Web Apps{" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Quiz-Web-Apps">
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://github.com/jchung7v/Quiz-Web-Apps"
+              >
                 github
               </a>
             </span>
@@ -280,11 +353,19 @@ export default function Home({ photo }) {
             Front-End Developer | Imposter Syndrome Self Assessment Web Apps
             (Hackathon){" "}
             <span className="text-sm text-gray-600">
-              <a className="text-orange-700" target="_blank" href="https://github.com/jchung7v/Mindscape">
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://github.com/jchung7v/Mindscape"
+              >
                 github
-              </a>
-              {" "}|{" "}
-              <a className="text-orange-700" target="_blank" href="https://hackthebreak-77859.web.app/">
+              </a>{" "}
+              |{" "}
+              <a
+                className="text-orange-700"
+                target="_blank"
+                href="https://hackthebreak-77859.web.app/"
+              >
                 output
               </a>
             </span>
@@ -323,6 +404,10 @@ export default function Home({ photo }) {
               Led a digital transformation team to renovate the outdated website
               and migrate 20 years of data from physical servers to Amazon cloud
               servers.
+            </li>
+            <li>
+              Managed the publication workflow for the monthly magazine while
+              sustaining an average subscription retention rate above 90%.
             </li>
           </ul>
         </div>
