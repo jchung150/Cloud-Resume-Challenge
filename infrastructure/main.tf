@@ -79,23 +79,6 @@ resource "aws_s3_bucket_versioning" "s3_bucket" {
   }
 }
 
-# resource "aws_s3_object" "object" {
-#   count        = var.upload_sample_file ? 1 : 0
-#   bucket       = aws_s3_bucket.s3_bucket.bucket
-#   key          = "index.html"
-#   source       = "${path.module}/index.html"
-#   content_type = "text/html"
-#   etag         = filemd5("${path.module}/index.html")
-# }
-# resource "aws_s3_object" "errorobject" {
-#   count        = var.upload_sample_file ? 1 : 0
-#   bucket       = aws_s3_bucket.s3_bucket.bucket
-#   key          = "404.html"
-#   source       = "${path.module}/404.html"
-#   content_type = "text/html"
-#   etag         = filemd5("${path.module}/404.html")
-# }
-
 data "aws_route53_zone" "domain_name" {
   count        = var.use_default_domain ? 0 : 1
   name         = var.hosted_zone

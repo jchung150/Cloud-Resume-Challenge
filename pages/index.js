@@ -26,7 +26,7 @@ export default function Home({ photo }) {
         <p className="text-sm">[Last Updated: Aug 25, 2023]</p>
         <div className="flex">
           <a
-            href="https://s3.us-west-2.amazonaws.com/juanchung.net/RESUME_BCIT_COOP_V1.6.pdf"
+            href="https://s3.us-west-2.amazonaws.com/juanchung.net/RESUME_BCIT_COOP_V1.7.pdf"
             download
             className="hover:text-orange-700 md:hover:text-orange-700"
           >
